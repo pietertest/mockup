@@ -1,4 +1,0 @@
-<div class="result_photo_container">
-<div class="result_photo" style="background: transparent url(/uploaded/photos/sdfsdf) no-repeat scroll 50% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;"/>
-<a class="nick" href="/?page=profile&action=view&user=sdfsd">sdfdsf</a>
-</div>

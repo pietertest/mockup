@@ -1,8 +1,0 @@
-login.good.NL = "Lekker ingelogd, joh hee!"  
-login.bad.NL = "Verkeerd ingelogd, beetje jammer..."
-
-noacces.bad.NL = "Je mag hier niet komen als je nog geen inloggertje aan je poepertje hebt"
-logout.good.NL = "Je bent lekker uitgelogd hoor!";
-
-subscribe.bad.NL = "De gebruikersnaam is al in gebruik.";  
-subscribe.bad.EN = "The nickname is already in user. Please chosse another one";  
