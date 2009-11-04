@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databases>
+	<database name="reflirt_nieuw">
+		<table name="bericht" ownerColumn="user" lastupdateColumn="lastupdate" insertDateColumn="insertdate" />
+		<table name="users" insertDateColum="date_in" lastupdateColumn="lastupdate"/>
+		
+
+		
+		<table name="disco" description="Lijst van alle discotheken" />
+		
+		
+		<table name="task" ownerColumn="user" lastupdateColumn="lastupdate"	insertDateColum="insertdate" />
+		
+		
+		<table name="category"  />
+		<table name="country" />
+		
+		<table name="search_disco" description="De eigelijke tabel" />
+		<table name="zoekopdracht" ownerColumn="user" lastupdateColumn="lastupdate" insertDateColum="insertdate" />
+		<table name="city" />
+		<table name="dummy" description="DEZE LATEN STAAN, DE LAATSTE TABEL WORDT NIET GOED GEPARST DUS DAN MAAR EEN DUMMY DING ERACHTER" />
+	</database>
+</databases>

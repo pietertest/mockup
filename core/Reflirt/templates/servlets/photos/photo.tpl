@@ -1,0 +1,1 @@
+<img src="/upload/photos/{photo}" />

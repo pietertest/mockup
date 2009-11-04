@@ -1,0 +1,8 @@
+RewriteEngine on
+
+#RewriteRule ^oproep/(.*)$ /?page=oproep&id=$1 [L]
+#RewriteRule ^zoeken(.*)$ /?page=zoeken [QSA]
+RewriteRule ^aanmelden(.*)$ /?page=subscribe [QSA]
+RewriteRule ^login$ /?page=noaccess [QSA]
+
+ErrorDocument 404 /?page=notfound

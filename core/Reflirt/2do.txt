@@ -1,0 +1,12 @@
+in SpotUtils staat een balngrijke medeldeling op regel 22:
+/TODO: deze regel veroorzaakt soms een dikke nativa error in IE
+			$query .= " WHERE spot.category = ".$cat;
+
+Volgende plugins in smarty wordt gebruikt, zelf gemaakt: 
+
+blockt.t.php
+function.html_text
+function.html_hidden
+function.html_password
+function.userpicture
+modifier.singular.php

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databases>
+	<database name="reflirt_nieuw">
+		<table name="photo" ownerColumn="user" insertDateColumn="insertdate"/>
+		<table name="spotphoto" />
+		<table name="photoalbum" ownerColumn="user" insertDateColumn="insertdate" />
+		<table name="spot" />
+		<table name="myspot" ownerColumn="user" insertDateColumn="insertdate"/>
+		<table name="mylocation" ownerColumn="user" />
+		<table name="mylocation_disco" ownerColumn="user" />
+		<table name="spot_disco" />
+		<table name="userfavorite" ownerColumn="user" insertDateColumn="insertdate" />
+		<table name="log" insertDateColumn="insertdate" />
+
+		<table name="oproep" ownerColumn="user" lastupdateColumn="lastupdate" insertDateColumn="insertdate" />
+		<table name="oproepfavorite" ownerColumn="user" insertDateColumn="insertdate" />
+		<table name="oproepreaction" ownerColumn="user" insertDateColumn="insertdate"/>
+
+		<table name="message" ownerColumn="user" otherUserColumn="sender" insertDateColumn="insertdate" />
+		<table name="note" ownerColumn="user" insertDateColumn="insertdate" />
+		<table name="users" insertDateColumn="insertdate" lastupdateColumn="lastupdate"/>
+		
+		<table name="disco" description="Lijst van alle discotheken" />
+		
+		
+		<table name="task" ownerColumn="user" lastupdateColumn="lastupdate"	insertDateColumn="insertdate" />
+		<table name="bookmark" ownerColumn="user" />
+		<table name="category"  />
+		<table name="country" />
+		
+		<table name="search_disco" ownerColumn="user" description="De eigelijke tabel" />
+		<table name="search_ov_train" ownerColumn="user" description="De eigelijke tabel" />
+		<table name="city" />
+		<table name="province" />
+		<table name="agenda" insertDateColumn="insertdate" ownerColumn="user" />
+		<table name="agendareaction" insertDateColumn="insertdate" ownerColumn="user"/>
+		<table name="spotagenda" ownerColumn="user" insertDateColumn="insertdate" />
+		<table name="spotadmin" ownerColumn="user" insertDateColumn="insertdate" />
+		
+		
+		
+		<!-- Dit is voor de import -->
+		<table name="users_oud" />
+		<table name="fotos_oud" />
+		
+		
+		<table name="dummy" description="DEZE LATEN STAAN, DE LAATSTE TABEL WORDT NIET GOED GEPARST DUS DAN MAAR EEN DUMMY DING ERACHTER" />
+	</database>
+</databases>

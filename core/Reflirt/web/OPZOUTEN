@@ -1,0 +1,23 @@
+#RewriteEngine on
+
+# Main navigation
+RewriteRule ^mijn/overzicht$ /?page=account&action=overview [nc]
+RewriteRule ^mijn/overzicht/VerwijderBericht/(.*)$ /?page=account&action=deletenote&noteid=$1 [nc]
+
+RewriteRule ^mijn/oproepen$ /?page=searchercall&action=overview [nc]
+RewriteRule ^mijn/zoeken$ /?page=searchercall&action=intro [nc]
+RewriteRule ^mijn/profiel$ /?page=myprofile&action=overview [nc]
+RewriteRule ^mijn/fotos$ /?page=photos&action=overview [nc]
+RewriteRule ^mijn/bookmarks$ /?page=bookmark&action=overview [nc]
+RewriteRule ^mijn/spots$ /?page=myspots&action=overview [nc]
+RewriteRule ^mijn/spots/nieuw$ /?page=myspots&action=choosecat [nc]
+RewriteRule ^mijn/berichten$ /?page=message&action=overview [nc]
+RewriteRule ^mijn/berichten/nieuw$ /?page=message&action=compose [nc]
+RewriteRule ^mijn/berichten/lezen/(.*)$ /?page=message&action=read&id=$1 [nc]
+
+
+
+RewriteRule ^profiel/(.*)$ ?page=userprofile&action=view&user=$1
+
+#Error 404
+ErrorDocument 404 /?page=error&action=errno&errno=404
