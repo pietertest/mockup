@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databases>
+	<database name="">
+		<table name="users" insertDateColumn="insertdate" lastUpdateColumn="lastupdate"/>
+
+		<table name="dummy" description="DEZE LATEN STAAN, DE LAATSTE TABEL WORDT NIET GOED GEPARST DUS DAN MAAR EEN DUMMY DING ERACHTER" />
+	</database>
+</databases>

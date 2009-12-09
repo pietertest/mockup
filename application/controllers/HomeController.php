@@ -1,4 +1,5 @@
 <?php
+include_once "Framework/entities/message/Message.class.php";
 
 class HomeController extends Page {
 	
@@ -6,7 +7,9 @@ class HomeController extends Page {
 	 * @WebAction
 	 */
 	public function overview() {
-		echo "overviewu!";
+		$message = new Message();
+		$message->put("naam", "pieter");
+		DebugUtils::debug($message);
 	}
 
 }
